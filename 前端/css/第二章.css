@@ -1,0 +1,73 @@
+/* div{
+    padding: 10px;
+    background: rgba(255, 0, 0, 0.2);  
+} */
+/* .a .b .c{
+    border: 2px solid black;
+} */
+
+div{
+    min-height: 50px;
+    background: rgba(0,0,0,.1);
+    margin: 10px;
+}
+.a + div{
+    background: rgba(255,0,0,.3);
+}
+.a ~ div{
+    background:  rgba(0,255,0,.3);
+}
+
+a:link{
+    color: blue;
+}
+/* a:visited{
+    color: gray;
+} */
+button:hover,
+a:hover{
+    background: #888;
+}
+button:active,
+a:active{
+    background: #333;
+    color: rgb(10, 0, 0);
+}
+
+input:focus{
+    background: #aaa;
+}
+
+p:first-letter{
+    font-size: 50px
+}
+.help:before{
+    content:" - ";
+    color:  grey;
+}
+
+.help:after{
+    content:"[?]";
+    color:blue;
+}
+p{
+    text-align: center;  /*left,right,justfly(向两边对齐)*/
+    line-height: 1.3;
+    text-decoration: underline;  /*line-through,overline*/
+}
+
+.block{
+    display: block;
+    margin: 8px;
+    padding:8px;
+    border: 5px dashed #777 ;
+}
+.inline{
+    display:inline;
+    border: dotted #777;
+}
+.inline-block{
+
+    display: inline-block;
+
+}

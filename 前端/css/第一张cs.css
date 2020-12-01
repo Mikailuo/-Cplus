@@ -1,0 +1,37 @@
+/*@import url(...)     从一个css引入到另一个的方式 */
+h2,h3{
+   color: gray;
+   background: black;
+}
+h2{
+    border: 3px solid green;
+}
+
+div{
+    color: red;
+}
+
+.pink{
+    color: pink;
+}
+.pink.load{
+    font-weight: 900;
+}
+#logo{
+    color: yellow;
+    background-color: red;
+
+}
+[title]{
+    color: gray;
+    border: 1px solid #000;
+}
+[title="此处为淘宝"]{
+    color: red;
+}
+/*除此以外还有[title*=~],[title^=~],[title$=]等格式，
+分别为含有~，开头为~，结尾为~，以此为选择对象进行渲染。*/
+
+p{
+    text-align: right;
+}

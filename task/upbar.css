@@ -1,0 +1,110 @@
+body{
+    background: rgb(221, 220, 220);
+    margin:0px;
+}
+.upbar{
+    height: 90px;
+    margin: 0px;
+    border: 0px;
+    margin-bottom:3px;
+    position: relative;
+    background: white;
+}
+.upbar div{
+    display: inline-block;
+    width: 80px;
+    margin-top: 0px;
+    border-top: 0px;
+    font-size : 20px;
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.home:hover{
+    background:linear-gradient(to bottom,red 0%,red 10%,white 10%, white 100% )
+}
+.classification:hover{
+    background:linear-gradient(to bottom,red 0%,red 10%,white 10%, white 100% )
+}
+.home-link:hover{
+    color: red;
+}
+.class-link:hover{
+    color: red;
+}
+.upbar img{
+    height: 30px;
+    width: 30px;
+}
+div .muxi{
+    margin-left: 250px;
+    width: 40px;
+    transition: all 2s;
+
+}
+.muxi:hover{
+    transform: scale(2);
+    transform: rotate(360deg);
+
+}
+.muxi .muxi-img{
+    border-left: 20px;
+}
+div .logo-link{
+    font-size: 30px;
+    color: rgb(8, 224, 62);
+}
+.classification{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.search{
+    height: 40px;
+    width: 60px;
+    margin: 0px;
+    position: relative;
+}
+.bar{
+    height: 30px;
+    width: 260px;
+    border: 3px solid red;
+    position:absolute;
+    top:15px;
+    left:30px;
+}
+.searchimg{
+    margin-left: 130px;
+    position:relative;
+    position:absolute;
+}
+div .searchimg .search-img{
+    height: 32px;
+    width: 80px;
+    border: 3px solid red;
+    position: absolute;
+    top:15px;
+    left:40px;
+}
+.personal{
+    margin-left: 40px;
+    position:absolute;
+    left:950px;
+    top:15px;
+}
+.personal .personal-img{
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
+}
+div .quit{
+    margin-left: 20px;
+    background-color: rgba(13, 196, 22, 0.582);
+    position:absolute;
+    left:1100px;
+    top:25px;
+}
+.quit-link{
+    color: white;  
+}

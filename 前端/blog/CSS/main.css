@@ -1,0 +1,90 @@
+body{
+    background: #454;
+    margin: 0px;
+    line-height: 1.7;
+}
+.container{
+    width:100%;
+    margin: 0;
+    background-image: url('starry.jpg');
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a, body{
+    color: #eee;
+}
+.side-bar{
+    float: left;
+    width: 20%;
+    position: fixed;
+
+
+}
+.side-bar>*{
+    padding: 10px 15px;
+}
+.main{
+    float: right;
+    width: 80%;
+    color: #454545;
+}
+.header .logo{
+    border: 5px solid #eee;
+    padding:10px 20px;
+    font-size: 30px;
+    display: inline-block;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+.side-bar .nav a,
+.side-bar .tag-list a{
+    display: block;
+    padding: 10px 50px;
+    color: #999;
+    transition: color 200ms;
+}
+.side-bar .nav a:hover,
+.side-bar .tag-list a:hover{
+    color: #eee;
+}
+.side-bar .nav a{
+    font-weight: 700;
+}
+
+.article-list, .article{
+    margin-right: 30%;
+    background-color: #fff;
+    padding:20px 20px;
+}
+
+
+.article-list .item .title,
+.article .title{
+    font-size: 23px;
+    font-weight: 700;
+    color: #454545;
+}
+.article-list .item .status
+.article .status{
+    font-size: 13px;
+    color: #ccc;
+}
+.article-list .item>*,
+.article>*{
+    margin: 10px 0;
+}
+.article-list .item{
+    margin-bottom: 20px;
+}
+.article-list{
+    box-shadow: 0 0 5px rgba(0,0,0,0.2) ;
+}

@@ -1,0 +1,92 @@
+.downbar div{
+    margin: 0px;
+    display: inline-block;
+}
+.downbar{
+    position:relative;
+
+}
+.QRcode{
+    position: fixed;
+    left: 100px;
+    top:  150px;
+}
+.QRcode .QRimg{
+    height: 100px;
+    width: 100px;
+}
+.QRcode .join{
+    height: 30px;
+    width: 100px;
+}
+.content{
+    position:relative;
+    left: 400px;
+    right: 300px;
+    height:800px;
+    background: white;
+}
+.left-content{
+    left: 300px;
+    height: 350px;
+    width: 300px;
+    margin: 50px;
+    text-align:center;
+    border: 3px solid black;
+    background:linear-gradient(rgba(218, 179, 8, 0.815),white);
+}
+
+.circle{
+    background: black;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    border: 20px;
+    font-size:14px;
+    color: white;
+    border: 2px dotted black;
+    position:relative;
+}
+p{
+    position: absolute;
+    top:70px;
+}
+.circle:hover{
+    color: black;
+    background-color: white;
+}
+.bottom{
+    height: 130px;
+    width: 300px;
+
+}
+.b1{
+    height: 70px;
+    width: 300px;
+    font-size: 30px;
+    font-weight: 30;
+    text-align: center;
+}
+.b2{
+    height:60px;
+    width: 300px;
+    text-align: center;
+}
+
+.right-content{
+    left: 600px;
+    width: 500px;
+    text-align: left;
+    font-size: 16px;
+    top: 50px;
+}
+@keyframes rotatefresh {
+    from { transform: translateX(0px) }
+    to {
+        transform: translateX(800px);
+        transition: all 2s;
+    }
+}
+.endgif{
+    animation: rotatefresh 2s infinite linear;
+}
